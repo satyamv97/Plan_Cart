@@ -1,0 +1,93 @@
+.main{
+    
+    align-items: center;
+    padding: 15%
+}
+.border{
+    padding: 50px;
+    border: 2px solid grey;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+ 
+}
+.radio{
+    display: flex;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+   
+}
+.cut{
+    text-decoration: line-through;
+}
+.green{
+color: #007f61;
+
+}
+.med-font{
+    font-size: medium;
+}
+.small-font{
+    font-size: small;
+}
+.xsmall-font{
+    font-size: x-small;
+}
+
+
+.plan1_apart,.plan2_apart,.plan3_apart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-left: 4%;
+}
+
+#plan1_2,#plan2_2,#plan3_2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+#plan1_1,#plan2_1,#plan3_1 {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+select{
+    width: 70px;
+    padding: 4px;
+    margin: 7px;
+}
+.shipTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 10px;
+}
+button{
+    background-color: green;
+    color: white;
+    font-weight: 350;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.left-align{
+    text-align: end
+}
+ .left{
+    margin-left: 1%;
+    margin-bottom :-10px;
+    width: 32%;
+}
+.right{
+    margin-right: 1%;
+    margin-top :-10px;
+    width: 32%;
+}
